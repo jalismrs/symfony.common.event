@@ -1,0 +1,42 @@
+{
+  "authors" : [
+    {
+      "name" : "Kévin CASTEJON",
+      "email" : "kevin.castejon@jalis.fr",
+      "role" : "Developer"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "Jalismrs\\Symfony\\Common\\" : "src/"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4" : {
+      "Tests\\" : "tests/"
+    }
+  },
+  "config" : {
+    "sort-packages" : true
+  },
+  "description" : "Adds Symfony event listener abstract class",
+  "license" : "MIT",
+  "name" : "jalismrs/symfony.common.event",
+  "require-dev" : {
+    "composer/package-versions-deprecated" : "*",
+    "phpunit/phpunit" : "9.4.2",
+    "roave/security-advisories" : "dev-master"
+  },
+  "require" : {
+    "php" : "^7.4",
+    "symfony/console" : "^5.0",
+    "symfony/event-dispatcher" : "^5.0"
+  },
+  "support" : {
+    "email" : "dev@jalis.fr",
+    "issues" : "https://github.com/jalismrs/symfony.common.event/issues",
+    "wiki" : "https://github.com/jalismrs/symfony.common.event/wiki",
+    "source" : "https://github.com/jalismrs/symfony.common.event",
+    "docs" : "https://github.com/jalismrs/symfony.common.event"
+  }
+}
