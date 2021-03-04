@@ -28,7 +28,7 @@
     "roave/security-advisories" : "dev-master"
   },
   "require" : {
-    "php" : "^7.4",
+    "php" : "^7.4 || ^8.0",
     "symfony/console" : "^5.0",
     "symfony/event-dispatcher" : "^5.0"
   },
